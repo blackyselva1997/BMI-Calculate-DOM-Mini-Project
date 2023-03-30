@@ -72,3 +72,36 @@ p {
     font-style: italic;
     display: none;
 }
+
+@media (min-width: 280px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+
+    button {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .container {
+        width: 30%;
+        margin: auto;
+    }
+
+    button {
+        font-size: 22px;
+    }
+}
